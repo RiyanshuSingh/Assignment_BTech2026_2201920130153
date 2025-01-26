@@ -1,13 +1,14 @@
 Problem Statements
 
-Problem 1: Highest Peak in a Grid
+Problem 1: Sort Colors
+Problem Statement: Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+You must solve this problem without using the library's sort function.
 
-Problem Statement: You are given a grid where some cells are marked as water (1) and others as land (0). The goal is to determine the height of each land cell such that the height of adjacent cells differs by at most 1, starting with water cells as height 0. Use Breadth-First Search (BFS) to compute the heights.
 Problem 2: Subarray Sum Calculation
-
 Problem Statement: Given an array nums, calculate the sum of elements for all valid subarrays where the index of a subarray start is constrained by the value of the current element. The problem focuses on efficiently calculating the subarray sums with proper constraints.
-Problem 3: Count Servers That Communicate
 
+Problem 3: Count Servers That Communicate
 Problem Statement: In a 2D grid, each cell represents a server (1) or no server (0). Two servers communicate if they are in the same row or column. Count the total number of servers that can communicate with at least one other server.
 Coding Platforms Used
 
